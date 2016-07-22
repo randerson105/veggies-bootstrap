@@ -1,0 +1,67 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	padding-top: 50px;
+	margin-bottom: 50px;
+    background-image: url(../images/tartan.png);
+    background-color: #A2C0A7;
+}
+
+h1 small {
+	color: #1F5829;
+}
+
+#main {
+	background-color: #FBE7D4;
+	padding-bottom: 25px;
+	border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#main row {
+	margin-bottom: 15px;
+}
+
+footer {
+   position: fixed;
+   bottom: 0;
+   height: 50px;
+   width: 100%;
+   background-color: #5E2241;
+   color: #CEAEBF;
+   text-align: center;
+   padding: 15px;
+}
+
+.navbar-inverse {
+	background-color: #5E2241;
+	border-color: #5E2241;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #CEAEBF;
+}
+
+.navbar-inverse .btn {
+	background-color: #CEAEBF;
+	color: #5E2241;
+}
+
+.jumbotron {
+	margin-top: 15px;
+	padding-bottom: 25px;
+	color: #000;
+	text-align: center;
+	text-shadow: 3px 3px 4px #FBE7D4;
+	background-image: url(../images/veggies-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron p {
+	font-size: 1.3em;
+	font-weight: bold;
+}
